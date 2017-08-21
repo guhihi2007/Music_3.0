@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/close_time"
+        android:icon="@mipmap/ic_launcher_round"
+        android:title="定时关闭" />
+    <item
+        android:id="@+id/download_path"
+        android:icon="@mipmap/ic_launcher_round"
+        android:iconTintMode="screen"
+        android:title="下载路径" />
+    <item
+        android:id="@+id/skin"
+        android:icon="@mipmap/ic_launcher_round"
+        android:iconTintMode="screen"
+        android:title="个性换肤" />
+    <item android:title="about me">
+        <menu>
+            <item
+                android:id="@+id/about"
+                android:icon="@mipmap/ic_launcher_round"
+                android:title="关于Me" />
+        </menu>
+    </item>
+</menu>
